@@ -22,6 +22,8 @@ KERAG is a novel KG-based RAG pipeline that enhances QA coverage by retrieving a
 
 ## Architecture
 
+![KERAG Flow Chart](kerag_flow.svg)
+
 The KERAG pipeline consists of four main phases:
 
 ### 1. Planning Phase
