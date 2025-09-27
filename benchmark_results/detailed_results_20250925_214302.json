@@ -1,0 +1,289 @@
+[
+  {
+    "question": "Which movies has Leonardo DiCaprio starred in?",
+    "ground_truth": "Leonardo DiCaprio has starred in movies including Titanic, Inception, The Wolf of Wall Street, Django Unchained, and The Revenant.",
+    "predicted_answer": "The provided knowledge does not contain information about the movies that Leonardo DiCaprio has starred in.",
+    "accuracy_score": 0.3333333333333333,
+    "coverage_score": 0.7142857142857143,
+    "hallucination_score": 0.8,
+    "response_time": 34.53231596946716,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "movie",
+      "topic_entity": {
+        "id": "entity_Leonardo_DiCaprio",
+        "name": "Leonardo DiCaprio",
+        "type": "Person",
+        "attributes": {
+          "confidence": 1,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "What is the highest-grossing movie of all time?",
+    "ground_truth": "Avatar (2009) is the highest-grossing movie of all time with over $2.8 billion worldwide.",
+    "predicted_answer": "The information provided does not allow for an answer to be determined.",
+    "accuracy_score": 0.07142857142857142,
+    "coverage_score": 0.125,
+    "hallucination_score": 0.8,
+    "response_time": 24.573913097381592,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "movie",
+      "topic_entity": {
+        "id": "entity_highest-grossing_movie_of_all_time",
+        "name": "highest-grossing movie of all time",
+        "type": "movie",
+        "attributes": {
+          "confidence": 1,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "Who are the current members of the Beatles?",
+    "ground_truth": "The Beatles disbanded in 1970. The original members were John Lennon, Paul McCartney, George Harrison, and Ringo Starr.",
+    "predicted_answer": "The information provided does not allow us to determine the current members of the Beatles.",
+    "accuracy_score": 0.11764705882352941,
+    "coverage_score": 0.5714285714285714,
+    "hallucination_score": 0.8,
+    "response_time": 27.293264865875244,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "music",
+      "topic_entity": {
+        "id": "entity_the_Beatles",
+        "name": "the Beatles",
+        "type": "Band",
+        "attributes": {
+          "confidence": 1,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "Which movies has Leonardo DiCaprio starred in?",
+    "ground_truth": "Leonardo DiCaprio has starred in movies including Titanic, Inception, The Wolf of Wall Street, Django Unchained, and The Revenant.",
+    "predicted_answer": "Leonardo DiCaprio has appeared in several notable films including Titanic and Inception.",
+    "accuracy_score": 0.3333333333333333,
+    "coverage_score": 0.42857142857142855,
+    "hallucination_score": 0.8,
+    "response_time": 0.10136103630065918,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "medium"
+    }
+  },
+  {
+    "question": "What is the highest-grossing movie of all time?",
+    "ground_truth": "Avatar (2009) is the highest-grossing movie of all time with over $2.8 billion worldwide.",
+    "predicted_answer": "Avatar is considered one of the highest-grossing movies.",
+    "accuracy_score": 0.35714285714285715,
+    "coverage_score": 0.5,
+    "hallucination_score": 0.1,
+    "response_time": 0.10113096237182617,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "simple"
+    }
+  },
+  {
+    "question": "Who are the current members of the Beatles?",
+    "ground_truth": "The Beatles disbanded in 1970. The original members were John Lennon, Paul McCartney, George Harrison, and Ringo Starr.",
+    "predicted_answer": "The Beatles were a famous British rock band with members like John Lennon and Paul McCartney.",
+    "accuracy_score": 0.4117647058823529,
+    "coverage_score": 0.2857142857142857,
+    "hallucination_score": 0.1,
+    "response_time": 0.10108613967895508,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "medium"
+    }
+  },
+  {
+    "question": "Which books written by J.K. Rowling are related to magic?",
+    "ground_truth": "J.K. Rowling wrote the Harry Potter series, which includes books like Harry Potter and the Philosopher's Stone, Harry Potter and the Chamber of Secrets, etc.",
+    "predicted_answer": "The information provided does not allow for an answer to the question.",
+    "accuracy_score": 0.05555555555555555,
+    "coverage_score": 0.1,
+    "hallucination_score": 0.8,
+    "response_time": 26.39660120010376,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "book",
+      "topic_entity": {
+        "id": "entity_J.K._Rowling",
+        "name": "J.K. Rowling",
+        "type": "Person",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "What is the population of Tokyo?",
+    "ground_truth": "Tokyo has a population of approximately 14 million people in the city proper and over 37 million in the greater metropolitan area.",
+    "predicted_answer": "The information provided does not allow for the determination of Tokyo's population.",
+    "accuracy_score": 0.10526315789473684,
+    "coverage_score": 0.3333333333333333,
+    "hallucination_score": 0.8,
+    "response_time": 22.328691244125366,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "location",
+      "topic_entity": {
+        "id": "entity_Tokyo",
+        "name": "Tokyo",
+        "type": "Location",
+        "attributes": {
+          "confidence": 1,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "Which books written by J.K. Rowling are related to magic?",
+    "ground_truth": "J.K. Rowling wrote the Harry Potter series, which includes books like Harry Potter and the Philosopher's Stone, Harry Potter and the Chamber of Secrets, etc.",
+    "predicted_answer": "Based on available information, J.K. Rowling wrote the Harry Potter series, which includes books like Harry Potter and the Philosoph...",
+    "accuracy_score": 0.6666666666666666,
+    "coverage_score": 0.4,
+    "hallucination_score": 0.1,
+    "response_time": 0.10077118873596191,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "medium"
+    }
+  },
+  {
+    "question": "What is the population of Tokyo?",
+    "ground_truth": "Tokyo has a population of approximately 14 million people in the city proper and over 37 million in the greater metropolitan area.",
+    "predicted_answer": "Based on available information, Tokyo has a population of approximately 14 million people in the city proper and over 37 million in ...",
+    "accuracy_score": 0.8421052631578947,
+    "coverage_score": 0.5,
+    "hallucination_score": 0.1,
+    "response_time": 0.10116362571716309,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "simple"
+    }
+  },
+  {
+    "question": "Which actors who starred in movies directed by Christopher Nolan have also worked with Steven Spielberg?",
+    "ground_truth": "Actors who have worked with both Christopher Nolan and Steven Spielberg include Tom Hanks, Leonardo DiCaprio, and Michael Caine.",
+    "predicted_answer": "The question cannot be answered with the provided knowledge.",
+    "accuracy_score": 0.05555555555555555,
+    "coverage_score": 0.0625,
+    "hallucination_score": 0.8,
+    "response_time": 28.76327896118164,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "movie",
+      "topic_entity": {
+        "id": "entity_Christopher_Nolan",
+        "name": "Christopher Nolan",
+        "type": "Person",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "What companies founded by former Apple employees are now worth over $1 billion?",
+    "ground_truth": "Companies founded by former Apple employees worth over $1 billion include Tesla (Elon Musk), Nest (Tony Fadell), and others.",
+    "predicted_answer": "The information provided does not allow for an answer to the question.",
+    "accuracy_score": 0.0,
+    "coverage_score": 0.0,
+    "hallucination_score": 0.8,
+    "response_time": 24.575629949569702,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "finance",
+      "topic_entity": {
+        "id": "entity_Apple",
+        "name": "Apple",
+        "type": "Organization",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "Which actors who starred in movies directed by Christopher Nolan have also worked with Steven Spielberg?",
+    "ground_truth": "Actors who have worked with both Christopher Nolan and Steven Spielberg include Tom Hanks, Leonardo DiCaprio, and Michael Caine.",
+    "predicted_answer": "Based on available information, Actors who have worked with both Christopher Nolan and Steven Spielberg include Tom Hanks, Leonardo ...",
+    "accuracy_score": 0.8333333333333334,
+    "coverage_score": 0.5,
+    "hallucination_score": 0.1,
+    "response_time": 0.10068488121032715,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "complex"
+    }
+  },
+  {
+    "question": "What companies founded by former Apple employees are now worth over $1 billion?",
+    "ground_truth": "Companies founded by former Apple employees worth over $1 billion include Tesla (Elon Musk), Nest (Tony Fadell), and others.",
+    "predicted_answer": "Based on available information, Companies founded by former Apple employees worth over $1 billion include Tesla (Elon Musk), Nest (T...",
+    "accuracy_score": 0.7894736842105263,
+    "coverage_score": 0.6923076923076923,
+    "hallucination_score": 0.1,
+    "response_time": 0.10107231140136719,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "complex"
+    }
+  }
+]

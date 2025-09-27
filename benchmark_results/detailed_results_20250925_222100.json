@@ -1,0 +1,494 @@
+[
+  {
+    "question": "Which actors who starred in movies directed by Christopher Nolan have also worked with Steven Spielberg?",
+    "ground_truth": "Actors who have worked with both Christopher Nolan and Steven Spielberg include Tom Hanks, Leonardo DiCaprio, and Michael Caine. These actors have appeared in films directed by both directors, creating a connection between the two filmmakers' work.",
+    "predicted_answer": "The question cannot be answered with the provided knowledge.",
+    "accuracy_score": 0.06060606060606061,
+    "coverage_score": 0.0625,
+    "hallucination_score": 0.8,
+    "response_time": 23.618735790252686,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "movie",
+      "topic_entity": {
+        "id": "entity_Christopher_Nolan",
+        "name": "Christopher Nolan",
+        "type": "Person",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "What actors have appeared in both Marvel and DC movies?",
+    "ground_truth": "Several actors have appeared in both Marvel and DC movies, including Ryan Reynolds (Deadpool/Green Lantern), Ben Affleck (Daredevil/Batman), and Halle Berry (Storm/Catwoman).",
+    "predicted_answer": "The question cannot be answered with the provided information.",
+    "accuracy_score": 0.0,
+    "coverage_score": 0.0,
+    "hallucination_score": 0.8,
+    "response_time": 21.08699107170105,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "movie",
+      "topic_entity": {
+        "id": "entity_actors",
+        "name": "actors",
+        "type": "person",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "Which actors who starred in movies directed by Christopher Nolan have also worked with Steven Spielberg?",
+    "ground_truth": "Actors who have worked with both Christopher Nolan and Steven Spielberg include Tom Hanks, Leonardo DiCaprio, and Michael Caine. These actors have appeared in films directed by both directors, creating a connection between the two filmmakers' work.",
+    "predicted_answer": "Based on available information, Actors who have worked with both Christopher Nolan and Steven Spielberg include Tom Hanks, Leonardo ...",
+    "accuracy_score": 0.45454545454545453,
+    "coverage_score": 0.5,
+    "hallucination_score": 0.1,
+    "response_time": 0.10109972953796387,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "complex"
+    }
+  },
+  {
+    "question": "What actors have appeared in both Marvel and DC movies?",
+    "ground_truth": "Several actors have appeared in both Marvel and DC movies, including Ryan Reynolds (Deadpool/Green Lantern), Ben Affleck (Daredevil/Batman), and Halle Berry (Storm/Catwoman).",
+    "predicted_answer": "Based on available information, Several actors have appeared in both Marvel and DC movies, including Ryan Reynolds (Deadpool/Green L...",
+    "accuracy_score": 0.6666666666666666,
+    "coverage_score": 0.8,
+    "hallucination_score": 0.1,
+    "response_time": 0.10109400749206543,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "complex"
+    }
+  },
+  {
+    "question": "What companies founded by former Apple employees are now worth over $1 billion?",
+    "ground_truth": "Companies founded by former Apple employees worth over $1 billion include Tesla (founded by Elon Musk), Nest (founded by Tony Fadell), and Oculus (founded by Palmer Luckey, later acquired by Facebook).",
+    "predicted_answer": "The provided knowledge does not contain the necessary information to answer the question.",
+    "accuracy_score": 0.0,
+    "coverage_score": 0.0,
+    "hallucination_score": 0.8,
+    "response_time": 19.685562133789062,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "finance",
+      "topic_entity": {
+        "id": "entity_Apple",
+        "name": "Apple",
+        "type": "Organization",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "Which tech companies have been acquired by Google and are still operating as separate brands?",
+    "ground_truth": "Google has acquired several companies that still operate as separate brands, including YouTube, Android, Waze, and Nest. These acquisitions have been integrated into Google's ecosystem while maintaining their distinct identities.",
+    "predicted_answer": "The information provided does not allow us to answer the question.",
+    "accuracy_score": 0.0,
+    "coverage_score": 0.0,
+    "hallucination_score": 0.8,
+    "response_time": 19.0860538482666,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "organization",
+      "topic_entity": {
+        "id": "entity_Google",
+        "name": "Google",
+        "type": "Organization",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "What companies founded by former Apple employees are now worth over $1 billion?",
+    "ground_truth": "Companies founded by former Apple employees worth over $1 billion include Tesla (founded by Elon Musk), Nest (founded by Tony Fadell), and Oculus (founded by Palmer Luckey, later acquired by Facebook).",
+    "predicted_answer": "Based on available information, Companies founded by former Apple employees worth over $1 billion include Tesla (founded by Elon Mus...",
+    "accuracy_score": 0.56,
+    "coverage_score": 0.6923076923076923,
+    "hallucination_score": 0.1,
+    "response_time": 0.1011500358581543,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "expert"
+    }
+  },
+  {
+    "question": "Which tech companies have been acquired by Google and are still operating as separate brands?",
+    "ground_truth": "Google has acquired several companies that still operate as separate brands, including YouTube, Android, Waze, and Nest. These acquisitions have been integrated into Google's ecosystem while maintaining their distinct identities.",
+    "predicted_answer": "Based on available information, Google has acquired several companies that still operate as separate brands, including YouTube, Andr...",
+    "accuracy_score": 0.43333333333333335,
+    "coverage_score": 0.4,
+    "hallucination_score": 0.1,
+    "response_time": 0.10116887092590332,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "complex"
+    }
+  },
+  {
+    "question": "Which Nobel Prize winners in Physics have also made significant contributions to other scientific fields?",
+    "ground_truth": "Several Nobel Prize winners in Physics have made contributions to other fields, including Albert Einstein (also contributed to mathematics and philosophy), Marie Curie (also won Nobel Prize in Chemistry), and Richard Feynman (also contributed to quantum computing and education).",
+    "predicted_answer": "The information provided does not allow for an answer to the question.",
+    "accuracy_score": 0.034482758620689655,
+    "coverage_score": 0.06666666666666667,
+    "hallucination_score": 0.8,
+    "response_time": 23.08943510055542,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "person",
+      "topic_entity": {
+        "id": "entity_Nobel_Prize_winners_in_Physics",
+        "name": "Nobel Prize winners in Physics",
+        "type": "Person",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "What scientific discoveries led to the development of modern computers?",
+    "ground_truth": "Modern computers resulted from multiple scientific discoveries including Boolean algebra (George Boole), the transistor (Bell Labs), integrated circuits (Jack Kilby and Robert Noyce), and the stored-program concept (John von Neumann).",
+    "predicted_answer": "The information provided does not allow for an answer to be determined.",
+    "accuracy_score": 0.03571428571428571,
+    "coverage_score": 0.2,
+    "hallucination_score": 0.8,
+    "response_time": 21.307177782058716,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "general",
+      "topic_entity": {
+        "id": "entity_modern_computers",
+        "name": "modern computers",
+        "type": "technology",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "Which Nobel Prize winners in Physics have also made significant contributions to other scientific fields?",
+    "ground_truth": "Several Nobel Prize winners in Physics have made contributions to other fields, including Albert Einstein (also contributed to mathematics and philosophy), Marie Curie (also won Nobel Prize in Chemistry), and Richard Feynman (also contributed to quantum computing and education).",
+    "predicted_answer": "Based on available information, Several Nobel Prize winners in Physics have made contributions to other fields, including Albert Ein...",
+    "accuracy_score": 0.4827586206896552,
+    "coverage_score": 0.6666666666666666,
+    "hallucination_score": 0.1,
+    "response_time": 0.10106921195983887,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "expert"
+    }
+  },
+  {
+    "question": "What scientific discoveries led to the development of modern computers?",
+    "ground_truth": "Modern computers resulted from multiple scientific discoveries including Boolean algebra (George Boole), the transistor (Bell Labs), integrated circuits (Jack Kilby and Robert Noyce), and the stored-program concept (John von Neumann).",
+    "predicted_answer": "Based on available information, Modern computers resulted from multiple scientific discoveries including Boolean algebra (George Boo...",
+    "accuracy_score": 0.39285714285714285,
+    "coverage_score": 0.3,
+    "hallucination_score": 0.1,
+    "response_time": 0.10110712051391602,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "complex"
+    }
+  },
+  {
+    "question": "Which countries share borders with both China and India?",
+    "ground_truth": "Countries that share borders with both China and India include Nepal, Bhutan, and Pakistan. These countries are located in the Himalayan region and serve as important geopolitical connections between the two major powers.",
+    "predicted_answer": "The information provided does not allow for an answer to be determined.",
+    "accuracy_score": 0.034482758620689655,
+    "coverage_score": 0.0,
+    "hallucination_score": 0.8,
+    "response_time": 24.255403995513916,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "location",
+      "topic_entity": {
+        "id": "entity_China_and_India",
+        "name": "China and India",
+        "type": "Geopolitical Entities",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "What European countries were part of the Soviet Union and are now members of the European Union?",
+    "ground_truth": "European countries that were part of the Soviet Union and are now EU members include Estonia, Latvia, Lithuania, and parts of what is now the Czech Republic and Slovakia. These countries gained independence after the fall of the Soviet Union and later joined the EU.",
+    "predicted_answer": "The question cannot be answered with the provided knowledge.",
+    "accuracy_score": 0.03125,
+    "coverage_score": 0.07142857142857142,
+    "hallucination_score": 0.8,
+    "response_time": 23.942002058029175,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "location",
+      "topic_entity": {
+        "id": "entity_Soviet_Union",
+        "name": "Soviet Union",
+        "type": "Geo-Political Entity",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "Which countries share borders with both China and India?",
+    "ground_truth": "Countries that share borders with both China and India include Nepal, Bhutan, and Pakistan. These countries are located in the Himalayan region and serve as important geopolitical connections between the two major powers.",
+    "predicted_answer": "Based on available information, Countries that share borders with both China and India include Nepal, Bhutan, and Pakistan. These co...",
+    "accuracy_score": 0.4827586206896552,
+    "coverage_score": 0.7777777777777778,
+    "hallucination_score": 0.1,
+    "response_time": 0.1012887954711914,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "medium"
+    }
+  },
+  {
+    "question": "What European countries were part of the Soviet Union and are now members of the European Union?",
+    "ground_truth": "European countries that were part of the Soviet Union and are now EU members include Estonia, Latvia, Lithuania, and parts of what is now the Czech Republic and Slovakia. These countries gained independence after the fall of the Soviet Union and later joined the EU.",
+    "predicted_answer": "Based on available information, European countries that were part of the Soviet Union and are now EU members include Estonia, Latvia...",
+    "accuracy_score": 0.5,
+    "coverage_score": 0.8571428571428571,
+    "hallucination_score": 0.1,
+    "response_time": 0.10045480728149414,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "complex"
+    }
+  },
+  {
+    "question": "Which authors influenced both the Beat Generation and the Hippie movement?",
+    "ground_truth": "Authors who influenced both the Beat Generation and the Hippie movement include Jack Kerouac, Allen Ginsberg, and William S. Burroughs. Their works on counterculture, spirituality, and social rebellion provided intellectual foundations for both movements.",
+    "predicted_answer": "The information provided does not allow for an answer to be determined.",
+    "accuracy_score": 0.1,
+    "coverage_score": 0.1,
+    "hallucination_score": 0.8,
+    "response_time": 22.26099133491516,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "book",
+      "topic_entity": {
+        "id": "entity_Beat_Generation_and_the_Hippie_movement",
+        "name": "Beat Generation and the Hippie movement",
+        "type": "Cultural Movements",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "What musical genres emerged from the fusion of jazz and classical music?",
+    "ground_truth": "Musical genres that emerged from jazz-classical fusion include Third Stream (pioneered by Gunther Schuller), symphonic jazz (as seen in works by George Gershwin), and contemporary classical-jazz fusion (exemplified by composers like Wynton Marsalis).",
+    "predicted_answer": "The knowledge provided does not contain information on specific musical genres that emerged from the fusion of jazz and classical music.",
+    "accuracy_score": 0.26666666666666666,
+    "coverage_score": 0.8333333333333334,
+    "hallucination_score": 0.8,
+    "response_time": 22.040276288986206,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "music",
+      "topic_entity": {
+        "id": "entity_fusion_of_jazz_and_classical_music",
+        "name": "fusion of jazz and classical music",
+        "type": "Music Genre",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "Which authors influenced both the Beat Generation and the Hippie movement?",
+    "ground_truth": "Authors who influenced both the Beat Generation and the Hippie movement include Jack Kerouac, Allen Ginsberg, and William S. Burroughs. Their works on counterculture, spirituality, and social rebellion provided intellectual foundations for both movements.",
+    "predicted_answer": "Based on available information, Authors who influenced both the Beat Generation and the Hippie movement include Jack Kerouac, Allen ...",
+    "accuracy_score": 0.5,
+    "coverage_score": 0.8,
+    "hallucination_score": 0.1,
+    "response_time": 0.1009061336517334,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "expert"
+    }
+  },
+  {
+    "question": "What musical genres emerged from the fusion of jazz and classical music?",
+    "ground_truth": "Musical genres that emerged from jazz-classical fusion include Third Stream (pioneered by Gunther Schuller), symphonic jazz (as seen in works by George Gershwin), and contemporary classical-jazz fusion (exemplified by composers like Wynton Marsalis).",
+    "predicted_answer": "Based on available information, Musical genres that emerged from jazz-classical fusion include Third Stream (pioneered by Gunther Sc...",
+    "accuracy_score": 0.43333333333333335,
+    "coverage_score": 0.4166666666666667,
+    "hallucination_score": 0.1,
+    "response_time": 0.10120773315429688,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "complex"
+    }
+  },
+  {
+    "question": "What technologies were developed as a result of the space race between the US and USSR?",
+    "ground_truth": "Technologies developed during the space race include satellite communication, GPS systems, weather forecasting satellites, materials science advances (like memory foam), and computer miniaturization. These innovations had widespread applications beyond space exploration.",
+    "predicted_answer": "The provided knowledge does not contain information on the technologies developed as a result of the space race between the US and USSR.",
+    "accuracy_score": 0.2,
+    "coverage_score": 0.8,
+    "hallucination_score": 0.8,
+    "response_time": 20.80622410774231,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "general",
+      "topic_entity": {
+        "id": "entity_space_race_between_the_US_and_USSR",
+        "name": "space race between the US and USSR",
+        "type": "Event",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "Which programming languages influenced the development of Python?",
+    "ground_truth": "Python was influenced by several programming languages including ABC (for its clean syntax), Modula-3 (for its exception handling), and C (for its implementation). Guido van Rossum designed Python to be readable and efficient, drawing from these languages' strengths.",
+    "predicted_answer": "The information provided does not allow for an answer to be determined.",
+    "accuracy_score": 0.0625,
+    "coverage_score": 0.125,
+    "hallucination_score": 0.8,
+    "response_time": 23.011462926864624,
+    "retrieval_recall": 0.3,
+    "reasoning_quality": 0.8,
+    "method": "KERAG",
+    "metadata": {
+      "domain": "general",
+      "topic_entity": {
+        "id": "entity_Python",
+        "name": "Python",
+        "type": "Programming Language",
+        "attributes": {
+          "confidence": 0.95,
+          "detection_method": "llm_identification"
+        },
+        "neighbors": []
+      }
+    }
+  },
+  {
+    "question": "What technologies were developed as a result of the space race between the US and USSR?",
+    "ground_truth": "Technologies developed during the space race include satellite communication, GPS systems, weather forecasting satellites, materials science advances (like memory foam), and computer miniaturization. These innovations had widespread applications beyond space exploration.",
+    "predicted_answer": "Based on available information, Technologies developed during the space race include satellite communication, GPS systems, weather f...",
+    "accuracy_score": 0.4,
+    "coverage_score": 0.3333333333333333,
+    "hallucination_score": 0.1,
+    "response_time": 0.10114383697509766,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "complex"
+    }
+  },
+  {
+    "question": "Which programming languages influenced the development of Python?",
+    "ground_truth": "Python was influenced by several programming languages including ABC (for its clean syntax), Modula-3 (for its exception handling), and C (for its implementation). Guido van Rossum designed Python to be readable and efficient, drawing from these languages' strengths.",
+    "predicted_answer": "Based on available information, Python was influenced by several programming languages including ABC (for its clean syntax), Modula-...",
+    "accuracy_score": 0.40625,
+    "coverage_score": 0.375,
+    "hallucination_score": 0.1,
+    "response_time": 0.1011347770690918,
+    "retrieval_recall": 0.0,
+    "reasoning_quality": 0.8,
+    "method": "Traditional_RAG",
+    "metadata": {
+      "simulated": true,
+      "complexity": "medium"
+    }
+  }
+]
